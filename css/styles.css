@@ -243,6 +243,7 @@ img {
 .team-list {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .title-team-cards {
@@ -252,14 +253,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
   margin-bottom: 8px;
-}
-
-.paragraph-team {
-  text-align: center;
-  letter-spacing: 0.02em;
-  padding-bottom: 32px;
 }
 
 .team-cards {
@@ -270,6 +264,18 @@ img {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+
+.team-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.paragraph-team {
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+
 
 .portfolo-list {
   display: flex;
