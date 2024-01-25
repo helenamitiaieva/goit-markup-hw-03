@@ -322,11 +322,12 @@ img {
 
 .footer {
   background: #2e2f42;
+  padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  
 }
 
 .footer-logo {
