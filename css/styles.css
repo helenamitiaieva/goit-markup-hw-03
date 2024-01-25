@@ -38,13 +38,10 @@ img {
   padding-right: 15px;
   width: 1158px;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-container {
