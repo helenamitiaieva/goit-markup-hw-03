@@ -156,6 +156,7 @@ img {
 }
 
 .title-hide {
+  visibility: hidden;
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
