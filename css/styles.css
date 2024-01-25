@@ -34,8 +34,11 @@ img {
 }
 
 .container {
-  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1128px;
   margin: 0 auto;
+  border: 2px solid red;
 }
 
 .header {
@@ -46,6 +49,7 @@ img {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .nav {
@@ -76,7 +80,7 @@ img {
 .menu {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
+  margin-right: 306px;
 }
 
 .menu-link {
@@ -95,6 +99,10 @@ img {
   color: #404bbf;
   font-weight: 500;
   letter-spacing: 0.02em;
+}
+
+.address {
+ 
 }
 
 .address-link {
@@ -118,6 +126,7 @@ img {
 .address-list {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .section {
@@ -223,7 +232,6 @@ img {
 
 .team-list {
   display: flex;
-  gap: 24px;
   justify-content: space-between;
 }
 
@@ -257,7 +265,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-  column-gap: 24px;
   justify-content: space-between;
 }
 
